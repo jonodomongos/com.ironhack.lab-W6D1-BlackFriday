@@ -1,4 +1,4 @@
-public class Main {
+public class MainCacatua {
     public static void main(String[] args) {
     /*
     INSTRUCCIONES:
@@ -14,5 +14,11 @@ public class Main {
 
     +EXTRA: posibilidad de anular el descuento a todos los productos después del Black Friday, mediante método a tal propósito.
     */
+        Cacatua miCacatua = new Cacatua("Lola");
+
+        System.out.println("La cacatúa se llama " + miCacatua.getNombre() +
+                ", dice '" + Cacatua.hablar() +
+                "' y lo mínimo para que se calle son " +
+                Cacatua.cantidadMinimaCacahuetes + " cacahuetes.");
     }
 }
